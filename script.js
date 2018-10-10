@@ -32,20 +32,21 @@ document.addEventListener("DOMContentLoaded", function() {
     let AccordionEl   = document.querySelectorAll('[id*="tab"]');
 for(let i=0; i<AccordionEl.length;i++){
 document.querySelector("#tab"+[i]+1+"-0").addEventListener("click", function(event) {
-    
-}
-                                                           }
-     for(var i =0; i<AccordionEl.lengt; i++){
+
+
+        for(let i =0; i<AccordionEl.lengt; i++){
                 if(document.getElementsByClassName('gs-faq__answer')[i].style.display == 'block'){
                     continue;
                 }else{
         document.getElementsByClassName('gs-faq__answer')[i].style.display = 'none';
                 }
     
- 
+        }
 }     
+                                                           }
 event.preventDefault();
-}, false);
+}, false);   
+
 document.querySelector("#tab2-1").addEventListener("click", function(event) {
 
 
