@@ -4,7 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 (function () { 
+    let AccordionEl   = document.querySelectorAll('[id*="tab"]');
+    
 
+    
+for(let=1; i<AccordionEl.length;
 document.querySelector("#tab1-0").addEventListener("click", function(event) {
     
 
